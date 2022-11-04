@@ -1,0 +1,19 @@
+img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-name: fly;
+    animation-duration: 5s;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/76969/cold-front-warm-front-hurricane-felix-76969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+@keyframes fly {
+    0%{
+        transform: translate(-50%,0);
+    }
+    100%{
+        transform: translate(-50%,-100vh);
+    }
+}
